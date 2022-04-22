@@ -1,0 +1,33 @@
+package AssignmentsCollections;
+
+public class Customer implements Comparable<CreditCard>
+{
+	private String name;
+	private int crn;
+	public Customer(String name, int crn) {
+		super();
+		this.name = name;
+		this.crn = crn;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getCrn() {
+		return crn;
+	}
+	public void setCrn(int crn) {
+		this.crn = crn;
+	}
+	@Override
+	public String toString() {
+		return "Customer [name=" + name + ", crn=" + crn + "]";
+	}
+	@Override public int compareTo(CreditCard comparecus)
+    {
+        int compareExpiryDate = comparecus.getExpiryDate();
+        return this.ge - compareExpiryDate;
+    }
+}

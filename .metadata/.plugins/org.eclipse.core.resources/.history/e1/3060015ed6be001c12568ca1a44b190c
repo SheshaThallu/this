@@ -1,0 +1,12 @@
+package Assignments;
+
+public class Student 
+{
+	int marks;
+	String name;
+	Student(String name, int marks)
+	{
+		this.marks = marks;
+		this.name = name;
+	}
+}

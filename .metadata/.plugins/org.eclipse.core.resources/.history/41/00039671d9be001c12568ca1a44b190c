@@ -1,0 +1,25 @@
+package Assignments;
+
+public class Student 
+{
+	int marks;
+	String name;
+	Student(String name, int marks)
+	{
+		this.marks = marks;
+		this.name = name;
+	}
+	String getGrade()
+	{
+		if(marks>100)
+			return "Invalid Marks";
+		else if(marks>=90)
+			return name + " got Grade - A";
+		else if(marks>=80)
+			return name + " got Grade - B";
+		else if(marks>=70)
+			return name + " got Grade - C";
+		else
+			return name +" is Fail";
+	}
+}

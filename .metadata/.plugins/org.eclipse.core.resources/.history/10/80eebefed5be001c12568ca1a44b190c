@@ -1,0 +1,25 @@
+package Assignments;
+
+public class Student 
+{
+	int marks;
+	String name;
+	Student(String name, int marks)
+	{
+		this.marks = marks;
+		this.name = name;
+	}
+	static void cal(marks)
+	{
+		if(marks>100)
+			System.out.println("Invalid");
+		else if(marks>=90)
+			System.out.println("Grade - A");
+		else if(marks>=80)
+			System.out.println("Grade - B");
+		else if(marks>=70)
+			System.out.println("Grade - C");
+		else
+			System.out.println("Fail");
+	}
+}

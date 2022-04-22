@@ -1,0 +1,11 @@
+package Assignmentss;
+
+public class EmployeeUtility 
+{
+	public static void main(String[] args) 
+	{
+		Employee emp1 = new Employee(101, "Raju", 50000.0, 2000.0, "Manager");
+		Employee emp2 = new Employee(101, "Ganesh", 40000.0, 1000.0, "Lead");
+		Employee emp3 = new Employee(101, "Adhi", 30000.0, 500.0, "Associate");
+	}
+}

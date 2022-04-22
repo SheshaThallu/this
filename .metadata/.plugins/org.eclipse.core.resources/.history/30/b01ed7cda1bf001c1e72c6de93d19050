@@ -1,0 +1,9 @@
+package Assignments;
+
+public class ArrayEvenFilter 
+{
+	public static void main(String[] args) 
+	{
+		int arr[] = {3,45,23,78,44,34,88};
+	}
+}

@@ -1,0 +1,51 @@
+package Assignmentss;
+
+import java.util.Scanner;
+
+public class PizzaOrder 
+{
+	static Pizza p1 = new Pizza("pizza1", 99.99);
+	static Pizza p2 = new Pizza("pizza2", 89.99);
+	static Pizza p3 = new Pizza("pizza3", 79.99);
+	Pizza[] pizzas = { p1, p2, p3 };
+	double totalOrderCost = 0.0;
+	void calculateTotalOrderCost() 
+	{
+		while(true)
+		{
+			System.out.println("Menu\n--------\n1.Pizza1---"+p1.getPrice()+"\n2.Pizza2---"+p2.getPrice()+"\n3.Pizza3---"+p3.getPrice()+"\n4.Quit\nEnter Your Choice");
+			Scanner sc = new Scanner(System.in);
+			int choice,quantity;
+			choice = sc.nextInt();
+			switch(choice)
+			{
+				case 1:System.out.println("Enter Quantity");
+					quantity = sc.nextInt();
+					totalOrderCost += quantity*p1.getPrice();
+					break;
+				case 2:System.out.println("Enter Quantity");
+					quantity = sc.nextInt();
+					totalOrderCost += quantity*p2.getPrice();
+					break;
+				case 3:System.out.println("Enter Quantity");
+					quantity = sc.nextInt();
+					totalOrderCost += quantity*p3.getPrice();
+					break;
+				case 4:System.exit(0);
+				default:System.out.println("Invalid");
+			}
+			sc.close();
+		}
+		/*
+		 * for (Pizza pizza : pizzas) { switch (pizza.getName()) { case "pizza1":
+		 * totalOrderCost += p1.getPrice(); break; case "pizza2": totalOrderCost +=
+		 * p2.getPrice(); break; case "pizza3": totalOrderCost += p3.getPrice(); break;
+		 * default: totalOrderCost += 0.0; break; } }
+		 */
+	}
+	public static void main(String[] args) 
+	{
+		PizzaOrder po = new PizzaOrder();
+		po.calculateTotalOrderCost();
+	}
+}

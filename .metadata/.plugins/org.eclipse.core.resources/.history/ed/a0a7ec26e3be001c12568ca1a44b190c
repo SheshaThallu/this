@@ -1,0 +1,13 @@
+package Assignments;
+
+public class SortStudent 
+{
+	public static void main(String[] args) 
+	{
+		Student st1 = new Student(101, "Raju");
+		Student st2 = new Student(103, "Adi");
+		Student st3 = new Student(102, "Ganesh");
+		Student[] st = {st1, st2, st3};
+		
+	}
+}

@@ -1,0 +1,12 @@
+package Assignments;
+
+
+public class Addition{
+	public static void main(String[] args) 
+	{
+		Addition2 addition=new Addition2();
+		addition.setA(10);;
+		addition.setB(20);
+		System.out.println(addition.getA()+addition.getB());
+	}
+}

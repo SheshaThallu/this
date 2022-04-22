@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Assignments.Student"><rhs name\="Assignments.Student"/></lhs><lhs name\="Assignments.Calculator"><rhs name\="Assignments.Calculator"/></lhs><lhs name\="Assignments.OddOrEven"><rhs name\="Assignments.OddOrEven"/></lhs><lhs name\="Assignments.PrimeOrNot"><rhs name\="Assignments.PrimeOrNot"/></lhs><lhs name\="Assignmentss.Employee"><rhs name\="Assignmentss.Employee"/></lhs><lhs name\="Assignmentss.Pizza"><rhs name\="Assignmentss.Pizza"/></lhs><lhs name\="Assignmentss.PizzaOrder"><rhs name\="Assignmentss.PizzaOrder"/></lhs><lhs name\="AssignmentsCollections.CreditCard"><rhs name\="AssignmentsCollections.CreditCard"/></lhs><lhs name\="AssignmentsCollections.Customer"><rhs name\="AssignmentsCollections.Customer"/></lhs><lhs name\="Assignments.Addition"><rhs name\="Assignments.Addition"/></lhs></history>
+content_assist_number_of_computers=15
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

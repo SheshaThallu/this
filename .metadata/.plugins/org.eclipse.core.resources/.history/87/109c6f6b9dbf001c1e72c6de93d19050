@@ -1,0 +1,22 @@
+package Assignments;
+
+import java.util.Scanner;
+
+public class OddOrEven 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int number=sc.nextInt();
+		sc.close();
+		System.out.println(check(number));
+	}
+
+	private static String check(int n) 
+	{
+		if(n%2==0)
+			return "Even";
+		else
+			return "Odd";
+	}
+}

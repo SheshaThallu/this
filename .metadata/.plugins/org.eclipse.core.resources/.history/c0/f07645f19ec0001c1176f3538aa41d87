@@ -1,0 +1,24 @@
+package AssignmentsCollections;
+
+import java.util.Collections;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
+public class SortCustomers 
+{
+	public static void main(String[] args) 
+	{
+		Map<CreditCard,Customer> map = new LinkedHashMap<CreditCard,Customer>();
+		
+		map.put(new CreditCard(101, "Naveen", 123, 2025), new Customer("Naveen", 111));
+		map.put(new CreditCard(102, "Adi", 145, 2024), new Customer("Adi", 222));
+		map.put(new CreditCard(103, "Raju", 133, 2027), new Customer("Raju", 333));
+		map.put(new CreditCard(104, "Ganesh", 126, 2030), new Customer("Ganesh", 444));
+		map.put(new CreditCard(105, "Shesha", 134, 2022), new Customer("Shesha", 555));
+		
+		Collections.sort(map.keySet());
+		
+		
+	}
+}
